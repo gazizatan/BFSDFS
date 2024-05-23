@@ -62,7 +62,7 @@ public class Graph {
         adjacencyList.put("D", Arrays.asList("C", "A"));
         adjacencyList.put("E", Arrays.asList("G", "F", "B"));
         adjacencyList.put("F", Arrays.asList("G", "E"));
-        adjacencyList.put("G", Arrays.asList("F", "B"));
+        adjacencyList.put("G", Arrays.asList("F", "B", "E"));
 
         Graph graph = new Graph(adjacencyList);
 
